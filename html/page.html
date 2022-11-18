@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../icon.png">
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    <main>
+ 
+        <section class="box">
+
+            <div class="header-box">
+                <h1 class="title-box">Gerador de Senhas</h1>
+            </div>
+
+            <section class="body-box">
+                <div class="item-box" id="1">
+                    <p>0123456789</p>
+                    <h2>APENAS<br>NÚMEROS</h2>
+                </div>
+
+                <div class="item-box" id="2">
+                    <p>AaBbCcDdEe</p>
+                    <h2>APENAS<br>LETRAS</h2>
+                </div>
+
+                <div class="item-box" id="3">
+                    <p>AaBbCcDd0123</p>
+                    <h2>LETRAS E<br>NÚMEROS</h2>
+                </div>
+
+                <div class="item-box" id="4">
+                    <p>AaBbCc123$@&</p>
+                    <h2>LETRAS, NÚMEROS E<br>CARACTERES ESPECIAIS</h2>
+                </div>
+                <div class="generate-box">
+                    <h1 class="choice">NÚMEROS</h1>
+                    <p class="pass-len">Tamanho da Senha</p>
+                    <input type="range" name="pass" id="pass" min="4" max="16" value="4">
+                    <input type="text" id="result" readonly>
+                    <p class="pass-len">Segurança: Fraca</p>
+                    <input type="button" value="Gerar Senha" id="generate">
+                </div>
+                <footer>Made by Jorge Luiz</footer>
+            </section>
+            
+        </section>
+
+    </main>
+    <script src="../js/app.js"></script>
+</body>
+</html>
