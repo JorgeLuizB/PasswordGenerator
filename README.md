@@ -15,7 +15,7 @@ Feel free to save the folder in any directory you want.
 - Open the index.html
 
 ### Available on Github Page
-See on Github Page [PassWord Generator](https://jorgeluizb.github.io/Password Generator/)
+See on Github Page [PassWord Generator](https://jorgeluizb.github.io/PasswordGenerator/)
 
 ## Authors
 
